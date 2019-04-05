@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{7711EACF-FB44-4E67-9611-9D9A075421F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "МОСТ", "Updater\МОСТ.csproj", "{7711EACF-FB44-4E67-9611-9D9A075421F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4651BD6F-DB18-40AF-A621-1DC2484407CE}"
+	ProjectSection(SolutionItems) = preProject
+		Updater\bin\x86\Release\update.bat = Updater\bin\x86\Release\update.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
